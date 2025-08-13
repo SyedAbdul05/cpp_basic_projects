@@ -8,7 +8,7 @@ int main() {
     cout << "Enter a day (e.g., sat, sun, mon): ";
     cin >> day;
 
-    // Convert to lowercase so input like "Sat" also works
+    // Convert to lowercase so input like "SAT" also works
     for (int i = 0; i < day.length(); i++) {
         day[i] = tolower(day[i]);
     }
@@ -21,3 +21,4 @@ int main() {
 
     return 0;
 }
+
