@@ -11,8 +11,6 @@ int main()
 
     cout << "Enter Two Numbers\n";
     cout << "\nEnter First 1st Number : ";
-    
-
     cin >> firstNumber;
     cout << "\nEnter Second Number : ";
     cin >> secondNumber;
@@ -30,4 +28,5 @@ int main()
     cout << "\nDivision Result = "  << divisionResult;
     cout << "\nRemainder value = " << remainderValue;
     return 0;
+
 }
